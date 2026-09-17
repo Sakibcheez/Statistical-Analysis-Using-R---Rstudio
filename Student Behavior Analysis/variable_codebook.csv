@@ -1,0 +1,8 @@
+r_variable,role,data_type,definition,unit_or_values,source
+participant_id,Identifier,Integer,Anonymous row number only,1-35,Project data file
+gender,Grouping variable,Factor,Self-described gender category,Female/Male,Questionnaire
+gpa,Dependent variable,Numeric,Current cumulative GPA,0-4,Questionnaire
+study_hours,Predictor,Numeric,Total study hours during the last 7 days,hours/week,Questionnaire
+social_media,Predictor,Numeric,Average social-media use per day during the last 7 days,hours/day,Questionnaire
+sleep_hours,Predictor,Numeric,Average sleep per night during the last 7 days,hours/night,Questionnaire
+sleep_category,Derived categorical variable,Factor,Sleep benchmark status derived from sleep_hours,Below 7 h/night; At least 7 h/night,Derived from sleep_hours using the cited 7-hour benchmark
